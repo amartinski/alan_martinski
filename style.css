@@ -28,3 +28,12 @@ h3{
     padding: 0px 50px;
     font-family: 'Roboto', sans-serif;
 }
+#carouselExampleIndicators{
+    height:auto;
+}
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }

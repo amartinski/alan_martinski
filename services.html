@@ -4,10 +4,11 @@
   <title>Alan Martinski</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="index.js"></script>
   
     <!-------------------- CSS -------------------->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
      
     <!-------------------- Proprio -------------------->
@@ -17,6 +18,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    
+
+
 </head>
 <body>
     
@@ -70,17 +79,7 @@
       
   <div  class="jumbotron text-center">
     <h1>Alan Martinski</h1>
-    <h2>Evoluindo Com a Tecnologia</h2>
-    <h5>Desde os anos 2000 quando comecei a ter acesso a um computador isso se tornou a minha vida
-        ao mesmo tempo que adorava brincar na rua e andar de skate, quando chegava em casa a parte 
-        mais divertida era tentar editar os videos do dia-a-dia. Uma pena o YouTube não ser daquela época
-        ter tudo gravado e postado na nuvem seria uma maravilha, só deus sabe quantos HD's perdi até hoje.
-        <br>
-        E por isso desde então venho estudado em como funciona o universo da internet, pois afinal, consumimos
-         milhares de Gb todos os dias, como essas informações chegam e saem o tempo todo? através de pesquisas assim
-         hoje estou feliz em meu lugar, cada vez mais com um maior conhecimento de tecnologia fico feliz de estar 
-         acompanhando ela, mesmo que a velocidade dela seja muito maior que a nossa. Importante é manter-se firme nos estudos e jamais ficar para trás.
-    </h5>
+    <!--Area de Criação-->
   </div>
   
 <div class="container" >
@@ -111,6 +110,7 @@
       </p>  
       <!--<p>Meu linkedin é a parte mais atualizada de mim, onde gosto de estar aprendendo cada vez mais sobre as novas tecnologias</p>-->
     </div>
+    <div id="map"></div>
   </div>
 </div>
 
