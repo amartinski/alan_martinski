@@ -1,7 +1,8 @@
 body{
-    background: linear-gradient(180deg, #C111DE -0.52%, #E25CF7 129.57%);
+    background: #1a1a1a;
     background-repeat: no-repeat;
-    min-height: 495px;
+    width: 100%;
+    height: 100vh;
 }
 
 *{
@@ -19,11 +20,12 @@ body{
     margin-right: auto;
 }
 .bio{
+    color: white;
     margin: 50px;
     text-align: center;
 }
 
-.btn{
+.social{
     background-color: black;
     font-weight: bold;
     width: 50%;
@@ -32,14 +34,6 @@ body{
     margin: 50px auto;
     display: flex;
     border-radius: 50px;
-    box-shadow: 1px 1px 50px #968AF6;
-    min-width: 300px;
-
-    
-}
-a{
-    font-size: x-large;
-    display: flex;
-    color: #968AF6;
-    
+    box-shadow: 20px 20px 20px white ;
+    min-width: 300px;    
 }
