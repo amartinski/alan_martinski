@@ -1,39 +1,19 @@
-#menu{
-    padding: 25px;
+.body{
+    margin: auto;
+    align-content: center;    
 }
 
-h1{
-    font-size: flex;
-   text-align: center;
-   padding: 0px 50px;
-   font-family: 'Roboto', sans-serif;
-}
-.col-sm-3{
-    height: auto;
-    align-items: center;
-    padding: 5px;
-}
-p{
+.button{
+    margin: auto;
+    width: 50%;
+    display: block;
     text-align: center;
-
-
 }
-.jumbotron{
-    width: flex;
-    
-}
-h3{
-    font-size: flex;
+.btn{
+    width: 50%;
     text-align: center;
-    padding: 0px 50px;
-    font-family: 'Roboto', sans-serif;
+    margin: 20px auto;
+    display: flex;
+    border: 2px solid red;
+    border-radius: 50px;
 }
-#carouselExampleIndicators{
-    height:auto;
-}
-#map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-  }
