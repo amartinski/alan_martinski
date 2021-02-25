@@ -1,10 +1,29 @@
+body{
+    background: linear-gradient(180deg, #C111DE -0.52%, #E25CF7 129.57%);
+    background-repeat: no-repeat;
+}
+
 *{
     margin: auto;
     align-content: center;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.logo{
+    width: 50%;    
+}
+.logo1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bio{
+    margin: 50px;
+    text-align: center;
+}
+
 .btn{
+    background-color: black;
     font-size: 36px;
     font-weight: bold;
     width: 50%;
@@ -12,6 +31,8 @@
     text-align: center;
     margin: 20px auto;
     display: flex;
-    border: 2px solid red;
     border-radius: 50px;
+}
+a{
+    color: white;
 }
