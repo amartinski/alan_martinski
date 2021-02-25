@@ -1,8 +1,7 @@
 body{
     background: linear-gradient(180deg, #C111DE -0.52%, #E25CF7 129.57%);
     background-repeat: no-repeat;
-    min-width: 820px;
-    max-width: 1920px;
+    min-height: 495px;
 }
 
 *{
@@ -25,7 +24,6 @@ body{
 }
 
 .btn{
-    font-size: large;
     background-color: black;
     font-weight: bold;
     width: 50%;
@@ -35,10 +33,12 @@ body{
     display: flex;
     border-radius: 50px;
     box-shadow: 10px 10px 30px #968AF6;
+    min-width: 300px;
 
     
 }
 a{
+    font-size: x-large;
     display: flex;
     color: #968AF6;
     
