@@ -1,6 +1,8 @@
 body{
     background: linear-gradient(180deg, #C111DE -0.52%, #E25CF7 129.57%);
     background-repeat: no-repeat;
+    min-width: 820px;
+    max-width: 1920px;
 }
 
 *{
@@ -37,6 +39,7 @@ body{
     
 }
 a{
+    display: flex;
     color: #968AF6;
     
 }
