@@ -99,8 +99,7 @@ img {
 }
 
 .fim {
-  height: 0vh;
-  margin: 20px auto;
+  margin: 40px auto 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
