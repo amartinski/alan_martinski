@@ -1,0 +1,23 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'mukta', sans-serif;
+}
+
+@mixin responsive () {
+    @media screen and (max-width: 960px){
+        @content;
+    }
+}
+
+@import 'partials/colors';
+
+@import 'partials/layout';
+@import 'partials/menu';
+@import 'partials/animations';
+@import 'partials/_spacing';
+
+
+
+
