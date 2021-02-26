@@ -70,21 +70,11 @@ img {
   }
 
   .fim{    
-    margin: auto;
+    margin: 20px auto;
     display: flex;
     position: absolute;
     bottom: 0;
     font-size: 20px;
     left: 50%;
     transform: translateX(-50%);
-
-    @include responsive (){
-        margin: auto;
-        display: flex;
-        position: absolute;
-        bottom: 0;
-        font-size: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
   }
